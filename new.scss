@@ -1,0 +1,35 @@
+.sec1{
+    background-color: black;
+    color: white;
+    font-size: 2em;
+}
+.sec2{
+    background-color: rgb(220, 220, 220);
+}
+@mixin pacificBlue {
+
+    background-color: darkcyan;
+    color: white;
+    
+}
+.al-text{
+    @include pacificBlue;
+}
+@mixin blackone {
+
+    background-color: black;
+    color: white;
+    
+}
+@mixin blueone {
+
+    background-color: lightsteelblue;
+    color: white;
+    
+}
+.blk{
+    @include blackone;
+}
+.blu{
+    @include blueone;
+}
